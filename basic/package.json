@@ -1,0 +1,25 @@
+{
+  "name": "s3push-webhook-basic",
+  "version": "1.0.0",
+  "description": "An example to integrate s3push via serverless into the customers AWS account via a lambda function to trigger a webhook.",
+  "author": "dpa-IT Services GmbH",
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "engines": {
+    "node": ">=12.22"
+  },
+  "scripts": {
+    "deploy": "serverless deploy; serverless info -v",
+    "remove": "serverless remove"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "serverless": "^2.64.0",
+    "serverless-python-requirements": "^5.1.0"
+  }
+}
